@@ -1,0 +1,121 @@
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.country-name {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.container:not(:last-of-type) {
+  margin-bottom: 60px;
+}
+
+/* Ukraine */
+.blue-strip {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+}
+.yellow-strip {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+}
+
+/* Japan */
+.white-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.red-circle {
+  width: 140px;
+  height: 140px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* Iceland */
+.red-field {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: red;
+}
+
+.right-top,
+.right-bottom {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-right: 10px solid white;
+}
+
+.right-top {
+  top: 0;
+  border-bottom: 10px solid white;
+}
+.right-bottom {
+  bottom: 0px;
+  border-top: 10px solid white;
+}
+
+.left-top,
+.left-bottom {
+  position: absolute;
+  width: 180px;
+  height: 80px;
+  background-color: blue;
+  border-left: 10px solid white;
+}
+
+.left-top {
+  top: 0;
+  right: 0;
+  border-bottom: 10px solid white;
+}
+.left-bottom {
+  right: 0;
+  bottom: 0;
+  border-top: 10px solid white;
+}
+
+/* Czech Republic */
+
+.box {
+   position: relative;
+}
+
+.white-strip {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.red-strip {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.blue-triangle {
+   position: absolute;
+   top: 0;
+   width: 0;
+   height: 0;
+   border-top: 101px solid transparent;
+   border-left: 150px solid blue;
+   border-bottom: 101px solid transparent;
+ }

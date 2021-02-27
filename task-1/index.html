@@ -1,0 +1,53 @@
+<!-- Задание #1
+
+Используя только HTML и CSS (без картинок) нужно изобразить на одной странице флаги государств:
+ - Украины,
+ - Японии,
+ - Исландии,
+ - Чехии.
+Флаги размещаем один под другим с небольшими отступами, размер каждого флага 300 пикселей в ширину. Важно соблюсти пропорции между элементами флага. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <p class="country-name">Ukraine</p>
+      <div class="container">
+         <div class="blue-strip"></div>
+         <div class="yellow-strip"></div>
+      </div>
+      <p class="country-name">Japan</p>
+      <div class="container">
+         <div class="white-field">
+            <div class="red-circle"></div>
+         </div>
+      </div>
+      <p class="country-name">Iceland</p>
+      <div class="container">
+         <div class="red-field">
+            <div class="right-top"></div>
+            <div class="left-top"></div>
+            <div class="right-bottom"></div>
+            <div class="left-bottom"></div>
+         </div>
+      </div>
+      <p class="country-name">Czech Republic</p>
+      <div class="container">
+         <div class="box">
+            <div class="white-strip"></div>
+            <div class="red-strip"></div>
+            <div class="blue-triangle"></div>
+         </div>
+      </div>
+</body>
+
+</html>
